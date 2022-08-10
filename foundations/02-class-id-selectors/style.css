@@ -1,0 +1,19 @@
+.pinky{
+    background-color:#ffc0cb;
+    font-family:Verdana,"DejaVu Sans", sans-serif;
+}
+
+#whitey {
+    color:#0000bb;
+    font-size:36px;
+}
+
+#greeny {
+    background-color:#00ff00;
+    font-weight:bold;
+}
+
+#greeny,
+.bigfont {
+    font-size:24px;
+}

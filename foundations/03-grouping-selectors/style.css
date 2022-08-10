@@ -1,0 +1,14 @@
+.first {
+    background-color:black;
+    color:azure;
+}
+
+.second {
+    background-color:hsl(60,100%,50%)
+}
+
+.first,
+.second {
+    font-size:28px;
+    font-family:helvetica, "Time New Roman", sans-serif
+}
