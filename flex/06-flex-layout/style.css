@@ -27,6 +27,11 @@ input {
 }
 
 /*Solution*/
+body {
+  display:flex;
+  flex-direction: column;
+}
+
 ul {
   list-style:none;
 }
@@ -50,7 +55,7 @@ a {
 
 .footer {
   justify-content: space-between;
-  flex-direction: column;
+  background-color: #eeeeee;
 }
 
 .content {
