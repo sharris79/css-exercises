@@ -14,10 +14,6 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
-.links {
-  display: flex;
-}
-
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -52,11 +48,26 @@ ul {
 }
 
 /*Solution*/
+
 .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
   display: flex;
 }
 
-.right-side {
+.logo {
+  margin-left: 8px;
+}
+
+li {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.left-side, .right-side {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
 }
