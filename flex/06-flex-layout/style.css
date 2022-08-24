@@ -34,3 +34,7 @@ ul {
 a {
   text-decoration: none;
 }
+
+.header, .left-links, .right-links {
+  display: flex;
+}
