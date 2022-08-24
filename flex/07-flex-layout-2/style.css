@@ -44,6 +44,12 @@ body {
 
 .center {
   display:flex;
+  flex: 1;
+}
+
+.sidebar {
+  display:flex;
+  flex: 0 0 auto;
 }
 
 .footer {
