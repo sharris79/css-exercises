@@ -59,6 +59,19 @@ a {
   font-size: 24px;
 }
 
+.card{
+  width: 250px;
+  padding: 8px;
+  margin: 10px;
+}
+.cards {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  padding:32px;
+}
+
 .footer {
   display:flex;
   align-items: center;
