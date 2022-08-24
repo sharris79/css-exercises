@@ -35,6 +35,15 @@ a {
   text-decoration: none;
 }
 
-.header, .left-links, .right-links {
+.header, .footer, .left-links, .right-links {
   display: flex;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.footer {
+  justify-content: space-between;
+  flex-direction: column;
 }
